@@ -1,0 +1,42 @@
+
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002114;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("/media/CROPPED%20PXL_20260819_163730257.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.overlay {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 20%;
+    width: 100%;
+    background-image: linear-gradient(#ffffff00, 80%, #ffffff);
+}
+.overlay h3 {
+    width: 70%;
+    text-align: center;
+}
+
+.preview .img-item{
+    height: 15em;
+    width: 20em;
+    overflow: hidden;
+    display: flex;
+}
+/*h1 {*/
+/*    color: #244837*/
+/*}*/
